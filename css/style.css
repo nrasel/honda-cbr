@@ -1,0 +1,67 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+/* ------------------------------
+              navbar
+-------------------------------- */
+.header-background{
+    background-color: #264653;
+}
+/* ------------------------------
+              banner section
+-------------------------------- */
+.btn-modal-bg-color{
+    background-color: #E76F51;
+}
+/* ------------------------------
+         fetured bike section
+-------------------------------- */
+.section-title p{
+    color: #E76F51;
+    position: relative;
+}
+.section-title p::after{
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: #E76F51;
+    top: 30px;
+    left: calc(50% - 30px);
+}
+.fetured-img-1 img{
+    filter: grayscale(100%);
+}
+.fetured-img-3 img{
+    filter: grayscale(100%);
+}
+
+
+/* ------------------------------
+         latest news section
+-------------------------------- */
+.btn-btn-fetured{
+    border: 1px solid #E76F51;
+    color: #E76F51;
+}
+.btn-btn-fetured:hover{
+    background-color: #E76F51;
+    color: white;
+}
+.shadow-card{
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* ------------------------------
+         clients section
+-------------------------------- */
+.text-orange{
+    color: #E76F51;
+}
+.clients img{
+    width: 149px;
+    height: 149px;
+}
+.star-icons i{
+    color: #E76F51;
+}
