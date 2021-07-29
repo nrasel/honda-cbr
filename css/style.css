@@ -90,7 +90,6 @@ h1,h2,h3,h4,h5,h6{
 }
 .get-trusted-img:hover{
     box-shadow: 0 4px 6px 0 rgb(36 39 44 / 10%);
-    border: 1px solid #ddd;
 }
 .location-heading{
     color: rgba(36,39,44,.7);
